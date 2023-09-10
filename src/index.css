@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.viewBtn:hover .label {
+  color: white;
+}
+
+
+.readLess {
+  @apply text-xl overflow-hidden text-ellipsis line-clamp-6
+}
+
+.readMore {
+  @apply text-xl
+}
